@@ -5,3 +5,11 @@ Descrizione:
 // * Applicare l'autoplay allo slider: ogni 3 secondi, cambia immagine automaticamente.
 
 Vue.config.devtools = true;
+const app = new Vue(
+    {
+        el: "#root",
+        data: {
+            
+        }
+    }
+)
