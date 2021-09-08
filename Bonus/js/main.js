@@ -15,7 +15,8 @@ const app = new Vue(
                 'img/image2.jpg',
                 'img/image3.jpg',
                 'img/image4.jpg'
-            ]
+            ],
+            clock: null
         },
         methods: {
             previousPhoto() {
@@ -29,9 +30,14 @@ const app = new Vue(
                 if (this.counterPhotos == (this.photos.length)) {
                     this.counterPhotos = 0;
                 }
+            },
+            timer() {
+                this.clock = setInterval(this.nextPhoto, 3000)
             }
-
             
+        },
+        created() {
+            this.timer()
         }
     }
 )
