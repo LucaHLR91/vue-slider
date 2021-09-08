@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    font-family: 'lato';
+    margin: 0 auto;
+}
+
+.images-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+}
+
+.prev, .next {
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+
+.images {
+    width: 100%;
+}
+
+.images img {
+    width: 100%;
+}
