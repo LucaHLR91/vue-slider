@@ -15,15 +15,15 @@
 <body>
     <div id="root" class="container">
         <div class="images-wrapper">
-            <div class="prev">
+            <div class="prev" @click="previousPhoto">
                 <i class="fas fa-angle-left"></i>
             </div>
 
             <div class="images">
-                <img :src="photos[0]" alt="image">
+                <img :src="photos[counterPhotos]" alt="image">
             </div>
 
-            <div class="next">
+            <div class="next" @click="nextPhoto">
                 <i class="fas fa-angle-right"></i>
             </div>
             

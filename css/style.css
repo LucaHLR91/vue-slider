@@ -10,7 +10,7 @@
     width: 70%;
     height: 100vh;
     font-family: 'lato';
-    margin: auto;
+    margin: 0 auto;
 }
 
 .images-wrapper {
@@ -24,6 +24,7 @@
 .prev, .next {
     font-size: 40px;
     color: black;
+    cursor: pointer;
 }
 
 .images {
