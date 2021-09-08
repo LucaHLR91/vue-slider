@@ -24,6 +24,7 @@
 
 .prev, .next {
     font-size: 40px;
+    margin: 0 20px;
     color: black;
     cursor: pointer;
 }
@@ -45,4 +46,12 @@
     color: white;
     border-radius: 20px;
     padding: 20px;
+}
+
+.nav > i {
+    margin: 0 20px;
+}
+
+.nav > i.active {
+    color: blue;
 }

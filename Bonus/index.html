@@ -28,7 +28,7 @@
             </div>
             
             <div class="nav">
-                <i class="fas fa-circle"></i>
+                <i :class="(index == counterPhotos) ? 'active' : null" class="fas fa-circle" v-for="(photos, index) in photos"></i>
             </div>
         </div>
     </div>
