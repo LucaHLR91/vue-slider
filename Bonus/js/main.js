@@ -37,6 +37,8 @@ const app = new Vue(
         },
         mounted() {
             this.timer()
-        }
+            // setInterval(() => {
+            //     this.nextPhoto();
+            // }, 3000) soluzione con arrow function più corretta per il this
     }
 )
