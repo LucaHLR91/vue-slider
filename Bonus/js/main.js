@@ -33,8 +33,7 @@ const app = new Vue(
             },
             timer() {
                 this.clock = setInterval(this.nextPhoto, 3000)
-            }
-            
+            },
         },
         mounted() {
             this.timer()
