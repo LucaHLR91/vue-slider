@@ -36,7 +36,7 @@ const app = new Vue(
             }
             
         },
-        created() {
+        mounted() {
             this.timer()
         }
     }
